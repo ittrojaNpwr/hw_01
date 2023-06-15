@@ -21,5 +21,7 @@ class EmployeeTest(unittest.TestCase):
         self.assertEqual(self.employee.year_raise, 8000)
         self.employee.get_raise()
         self.assertEqual(self.employee.year_raise, 13000)
+
+
 if __name__ == '__main__':
     unittest.main()
